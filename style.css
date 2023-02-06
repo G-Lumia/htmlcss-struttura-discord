@@ -2,4 +2,57 @@
     margin:0;
     padding:0;
     box-sizing: border-box;
+    border: 1px solid black;
 }
+
+.position-center{
+    margin: 0 auto;
+}
+
+body{
+    background-color:red;
+}
+
+.d-flex{
+    display:flex;
+}
+
+.around{
+    justify-content: space-around;
+}
+
+.center{
+    justify-content: center;
+}
+
+.row{
+    flex-flow: row, nowrap;
+}
+
+.column{
+    flex-flow: column, nowrap;
+}
+
+.reverse-row{
+    flex-flow: row-reverse, nowrap;
+}
+
+li{
+    list-style-type: none;
+  }
+
+  a{
+    text-decoration: none;
+  }
+
+  .gap{
+    gap:30px;
+  }
+
+  .text-center{
+    text-align: center;
+  }
+
+  .text-left{
+    text-align: left;
+  }
