@@ -10,7 +10,7 @@
 }
 
 body{
-    background-color:red;
+    background-color:rgb(151, 151, 151);
 }
 
 .d-flex{
@@ -33,9 +33,14 @@ body{
     flex-flow: column, nowrap;
 }
 
-.reverse-row{
-    flex-flow: row-reverse, nowrap;
+.start{
+    justify-self: flex-start;
 }
+
+.end{
+    justify-self: flex-end;
+}
+
 
 li{
     list-style-type: none;
@@ -55,4 +60,9 @@ li{
 
   .text-left{
     text-align: left;
+  }
+
+  .footer-end{
+    width:1200px;
+    justify-content: space-between;
   }
